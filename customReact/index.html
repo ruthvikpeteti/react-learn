@@ -6,7 +6,10 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- Empty container: customReact.js finds this by its id and puts the link inside it -->
     <div id="root"></div>
+    <!-- Loaded AFTER the div so #root already exists when the script runs.
+         No Vite or React here: plain JavaScript only. -->
     <script src="./customReact.js"></script>
 </body>
 </html>
